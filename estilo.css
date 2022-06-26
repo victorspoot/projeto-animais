@@ -5,14 +5,67 @@
     padding: 0px;
 }
 
-body {
+:root {
+    --cor0: #157360;
+    --cor1: #50A694;
+    --cor2: #054113;
+    --cor3: #4D1937;
+    --cor4: #6E1573;
+}
 
+body {
+    background-color: var(--cor2);
+    height: 97vh;
+}
+
+header {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+    padding: 50px;
+    background-color: var(--cor0);
+    text-align: center;
+    color: white;
+    font-variant-caps: small-caps;
+    font-size: 2.3vw;
 }
 
 main {
+    background-color: white;
     margin: auto;
     max-width: 750px;
     min-width: 300px;
+    text-align: justify;
+}
+
+
+section.imagem {
+    background-image: url('imagens/aguia-paralax.jpg');
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate();
+    padding: 5px;
+}
+
+section.imagem > p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 5px;
+}
+
+
+h2 {
+    padding: 20px;
     text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: left;
 }
 
