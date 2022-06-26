@@ -33,7 +33,7 @@ nav {
 }
 
 main {
-    max-width: 50%;
+    max-width: 750px;
     min-width: 300px;
     background-color: var(--cor1);
 }
@@ -58,7 +58,7 @@ p {
     line-height: 1.4em;
 }
 
-footer {
+footer p {
     text-align: center;
 }
 
