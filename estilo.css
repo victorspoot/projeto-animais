@@ -38,6 +38,8 @@ header {
 
 main {
     background-color: var(--cor1);
+    width: 50%;
+    margin: auto;
 }
 
 .imagens {
