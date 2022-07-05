@@ -3,6 +3,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: var(--cor2);
 }
 
 :root {
@@ -13,59 +18,58 @@
     --cor4: #6E1573;
 }
 
-
-html, body {
-    background-color: var(--cor2);
-    width: 94vw;
-    height: 100vh;
+header {
+    padding: 45px;
+    background-image: linear-gradient(to right, #157360, #50A694);
 }
 
-header {
-    width: 100%;
-    padding: 50px;
-    background-color: var(--cor0);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+header h1 {
     text-align: center;
+    font-variant: small-caps;
+}
+
+main#aguia {
+    background-image: url('imagens/aguia-paralax.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
     color: white;
-    font-variant-caps: small-caps;
-    font-size: 2.3vw;
-    display: block;
+}
+
+@media(max-width: 1100px) {
+    main#aguia p  {
+        color: rgb(230, 61, 9);
+        text-shadow: 0.5px 0.5px 1px black;
+    }
+}
+
+
+h2 {
+    background-image: linear-gradient(to right, #4D1937, var(--cor0));
+    padding-left: 50px;
+    color: white;
 }
 
 .animais {
-    text-align: left;
+    display: flex;
+    max-width: 800px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px black;
 }
 
-main {
+
+.conteudo-animais {
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+footer {
     background-color: var(--cor1);
-    width: 50%;
-    margin: auto;
-}
-
-.imagens {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-main h2 {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor0));
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
-    padding: 15px;
-    text-align: justify;
-    text-align: center;
-}
-
-p {
-    text-align: justify;
-    padding: 5px;
-    color: black;
-    font-size: 1.2em;
-    line-height: 1.4em;
 }
 
 footer p {
     text-align: center;
+    color: white;
 }
 
