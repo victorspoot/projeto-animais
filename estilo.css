@@ -26,6 +26,8 @@ header {
 header h1 {
     text-align: center;
     font-variant: small-caps;
+    color: var(--cor4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
 }
 
 main#aguia {
@@ -34,6 +36,10 @@ main#aguia {
     background-position: right bottom;
     background-repeat: no-repeat;
     color: white;
+}
+
+.imagens {
+    
 }
 
 @media(max-width: 1100px) {
@@ -54,7 +60,6 @@ h2 {
 .animais {
     display: flex;
     max-width: 800px;
-    margin: 10px;
     box-shadow: 2px 2px 4px black;
 }
 
