@@ -48,6 +48,7 @@ h2 {
     background-image: linear-gradient(to right, #4D1937, var(--cor0));
     padding-left: 50px;
     color: white;
+    text-align: center;
 }
 
 .animais {
